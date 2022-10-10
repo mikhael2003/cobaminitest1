@@ -1,0 +1,18 @@
+package com.if3b.tesulang;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+
+public class MainActivity extends AppCompatActivity {
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+
+        getSupportActionBar().setTitle("Coba Mini tes");
+
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+}
