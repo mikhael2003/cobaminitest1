@@ -9,41 +9,19 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/et_coba_mini_tes"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_above="@+id/btn_button"
-        android:layout_marginBottom="0dp"
-        android:text="Coba Mini Test"
-        android:textSize="20dp"
-        android:textColor="@color/black"/>
-
-    <Button
-        android:id="@+id/btn_button"
+        android:id="@+id/et_halo_dunia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/toast"
+        android:layout_marginTop="287dp"
+        android:text="Halo Dunia" />
+
+    <Button
+        android:id="@+id/toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
         android:text="Button"
-        android:layout_centerInParent="true"/>
-
-    <Button
-        android:id="@+id/btn_apa_kabar_kamu"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="83dp"
-        android:text="Apa Kabar kamu" />
-
-    <TextView
-        android:id="@+id/et_halu_dunia"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_below="@+id/btn_apa_kabar_kamu"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="@+id/btn_apa_kabar_kamu"
-        android:layout_marginTop="-92dp"
-        android:layout_marginEnd="1dp"
-        android:text="Halu Dunia" />
-
+        android:onClick="tampil"/>
 
 </RelativeLayout>
